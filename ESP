@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@tnbian 
-SpaceYes
-/
-Lua
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Lua/ESP
-@SpaceYes
-SpaceYes Create ESP
-Latest commit a8fde15 11 days ago
- History
- 1 contributor
-383 lines (341 sloc)  9.62 KB
-   
 -- [[ CREDIT : Kiriot22 ]] --
 local ESP = {
 	Enabled = true,
@@ -409,16 +381,3 @@ game:GetService("RunService").RenderStepped:Connect(function()
 end)
 
 return ESP
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
