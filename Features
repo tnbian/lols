@@ -8,10 +8,10 @@ end
 
 --[[ CHAT SPY ]]--
 
-enabled = true
-spyOnMyself = true
+enabled = false
+spyOnMyself = false
 public = false
-publicItalics = true
+publicItalics = false
 privateProperties = {
 	Color = Color3.fromRGB(255, 0, 0); 
 	Font = Enum.Font.GothamBlack;
