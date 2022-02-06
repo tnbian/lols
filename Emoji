@@ -1,0 +1,31 @@
+local StarId = {}
+
+local CrownId = {
+	1862072098, -- \\ Ellohkw}
+
+local DiamondId = {
+	2819726490, -- \\ RAYxCOMMUNITY
+}
+
+--[[ DO NOT MESS WITH ANYTHING HERE ]]--
+for _,v in pairs(game:GetService('Players'):GetChildren()) do
+	if table.find(StarId, v.UserId) then
+		if v.Character then
+			if v.Character.Parent.Name == 'Players' then
+				v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+			end
+		end
+	elseif table.find(CrownId, v.UserId) then
+		if v.Character then
+			if v.Character.Parent.Name == 'Players' then
+				v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+			end
+		end
+	elseif table.find(DiamondId, v.UserId) then
+		if v.Character then
+			if v.Character.Parent.Name == 'Players' then
+				v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
+			end
+		end
+	end
+end
