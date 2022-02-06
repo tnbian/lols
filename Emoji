@@ -1,7 +1,8 @@
 local StarId = {}
 
 local CrownId = {
-	1862072098, -- \\ Ellohkw}
+	1862072098, -- \\ Ellohkw
+}
 
 local DiamondId = {
 	2819726490, -- \\ RAYxCOMMUNITY
